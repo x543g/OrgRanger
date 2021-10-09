@@ -55,19 +55,8 @@ def timelog():
 def logo():
 	subprocess.call(["clear"])
 	print(bcolors.CYAN + bcolors.BOLD)
-	print("""
-
-  ____            _____                             
- / __ \          |  __ \                            
-| |  | |_ __ __ _| |__) |__ _ _ __   __ _  ___ _ __ 
-| |  | | '__/ _` |  _  // _` | '_ \ / _` |/ _ \ '__|
-| |__| | | | (_| | | \ \ (_| | | | | (_| |  __/ |   
- \____/|_|  \__, |_|  \_\__,_|_| |_|\__, |\___|_|   
-             __/ |                   __/ |          
-            |___/                   |___/           
+	print("""       
        v0.1 - x-orginating-ip 
-
-
     """)
 	print(bcolors.ENDC)
 
